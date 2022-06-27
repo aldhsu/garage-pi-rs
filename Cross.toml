@@ -1,0 +1,4 @@
+[build]
+xargo = true
+build-std = true
+default-target = "arm-unknown-linux-gnueabi"
