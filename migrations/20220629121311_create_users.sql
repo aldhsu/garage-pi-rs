@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS users (
+  id INTEGER PRIMARY KEY NOT NULL,
+  name TEXT NOT NULL UNIQUE,
+  key TEXT NOT NULL UNIQUE
+);-- Add migration script here

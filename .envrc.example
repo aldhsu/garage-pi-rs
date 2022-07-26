@@ -1,0 +1,5 @@
+#!bin/sh
+
+export REMOTE_NAME="name@ip"
+export BUILD_NAME="buildpath"
+export DATABASE_URL="sqlite:garage.db"

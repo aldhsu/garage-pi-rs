@@ -2,3 +2,8 @@
 xargo = true
 build-std = true
 default-target = "arm-unknown-linux-gnueabi"
+
+[build.env]
+passthrough = [
+  "DATABASE_URL"
+]
